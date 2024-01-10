@@ -1,6 +1,6 @@
 #include "head.h"
 
-/i**
+/**
  * _strchr - This searches for the first occurrence of the character c
  * in the string pointed to by the argument str
  *

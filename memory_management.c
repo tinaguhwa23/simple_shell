@@ -1,7 +1,7 @@
 #include "head.h"
 
 /**
- * _memcpy - This copies information between void pointers.
+ * _memocpy - This copies information between void pointers.
  *
  * @destination: destination pointer.
  * @source: source pointer.
@@ -9,7 +9,7 @@
  *
  * Return: no return.
  */
-void _memcpy(void *destination, const void *source, unsigned int size)
+void _memocpy(void *destination, const void *source, unsigned int size)
 {
 	char *char_source = (char *)source;
 	char *char_destination = (char *)destination;

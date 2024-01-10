@@ -165,7 +165,7 @@ char *replace_var(char *input, shell_data *shdata)
 
 	while (indx != NULL)
 	{
-		nlen += (indx->var_length - indx->len_var);
+		nlen += (indx->var_length - indx->len_val);
 		indx = indx->next;
 	}
 

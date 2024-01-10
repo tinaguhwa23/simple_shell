@@ -16,6 +16,6 @@ char *_strdup(const char *str1)
 	new = malloc(sizeof(char) * (len + 1));
 	if (new == NULL)
 		return (NULL);
-	_memcpy(new, str1, len + 1);
+	_memocpy(new, str1, len + 1);
 	return (new);
 }
